@@ -1,0 +1,57 @@
+/* HTML Selectors */
+body {
+    font-family:"Courier New", monospace;
+    max-width: 500px;
+    margin: auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+#lessons-disclaimer {
+    font-style: italic;
+    font-size: small;
+}
+
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+hr {
+    border-top: 3px solid lightgray;
+  }
+
+footer {
+    font-family: 'Lobster', cursive;
+    background-color: #01626E;
+    color: white;
+    box-shadow: 2px 2px 4px 4px #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+footer p {
+    font-family:"Courier New", monospace;
+}
+
+header {
+    background-color: #01626E;
+    color: white;
+    box-shadow: 2px 2px 4px 4px #ccc;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: grid; 
+    grid-template-columns: auto 1fr; 
+    grid-template-rows: 1fr; 
+    grid-template-areas: 
+        ". ."; 
+}
+
+header img {
+    margin: 20px 20px 20px 40px;
+}
