@@ -1,12 +1,17 @@
 /* HTML Selectors */
 body {
-    font-family:"Courier New", monospace;
+    font-family:"Helvetica", sans-serif;
     max-width: 500px;
     margin: auto;
 }
 
+main {
+    padding: 1em;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
+    font-size: 1.5em;
 }
 
 #lessons-disclaimer {
@@ -27,21 +32,17 @@ footer {
     font-family: 'Lobster', cursive;
     background-color: #01626E;
     color: white;
-    box-shadow: 2px 2px 4px 4px #ccc;
-    border-radius: 5px;
     padding: 5px;
     text-align: center;
 }
 
 footer p {
-    font-family:"Courier New", monospace;
+    font-family:"Helvetica", sans-serif;
 }
 
 header {
     background-color: #01626E;
     color: white;
-    box-shadow: 2px 2px 4px 4px #ccc;
-    border-radius: 5px;
     margin: auto;
     text-align: center;
     align-items: center;
@@ -53,5 +54,5 @@ header {
 }
 
 header img {
-    margin: 20px 20px 20px 40px;
+    margin: 10px 10px 10px 20px;
 }

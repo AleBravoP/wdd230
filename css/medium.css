@@ -1,0 +1,30 @@
+@media only screen and (min-width: 32.5em) {
+    h1 {
+        font-size: 2em;
+    }
+
+    footer {
+        font-family: 'Lobster', cursive;
+        background-color: #01626E;
+        color: white;
+        box-shadow: 2px 2px 4px 4px #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    header {
+        background-color: #01626E;
+        color: white;
+        box-shadow: 2px 2px 4px 4px #ccc;
+        border-radius: 5px;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        display: grid; 
+    }
+
+    header img {
+        margin: 20px 20px 20px 40px;
+    }
+}
