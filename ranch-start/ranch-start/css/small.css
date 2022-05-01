@@ -1,0 +1,72 @@
+/* Tell the box sizing to follow the border-box protocol */
+/* uising a Mozila vendor prefix; */
+* { -moz-box-sizing: border-box;
+    /* webkit vendor prefix  */
+    -webkit-box-sizing: border-box; 
+    /* standard CSS 3 rule*/ 
+    box-sizing: border-box;
+}
+
+/* ------- Already added in the normalize file ------*/
+/* This rule helps with iphones and microsoft phones */
+/* prevents the phones from trying to enlarge the font between */
+/* portrait and landscape modes */
+/* html {-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+} */
+
+/* body rules */
+body {
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+/* header rules */
+header {
+    background-color: #17a8e4;
+    padding: 1rem 2%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+}
+
+/* nevigation rules */
+nav {background-color: #111;}
+nav ul {margin: 0; padding: 0;}
+nav li {list-style-type: none;}
+nav li.active {background-color: #333;}
+
+nav a {
+    display: block;
+    padding: .8rem 0;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {background-color: #444;}
+
+/* main rules */
+main {
+    padding: 1rem 2%;
+    display: block;
+}
+
+main h1 {color: #17a8e1;}
+main figure img {width: 100%;}
+main figure {width: 100%;
+    margin: 0;
+}
+
+main figcaption {text-align: center; font-size: .8rem;}
+
+footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: #17a8e4;
+}
