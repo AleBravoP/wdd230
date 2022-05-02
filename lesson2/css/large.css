@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1028px) {
+    header, footer, main {
+        max-width: 75rem;
+        margin: auto;
+    }
+    
+    main {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 2%;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". . .";
+    }
+}

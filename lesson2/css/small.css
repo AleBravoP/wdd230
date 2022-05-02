@@ -1,0 +1,77 @@
+/* Tell the box sizing to follow the border-box protocol */
+/* uising a Mozila vendor prefix; */
+* { -moz-box-sizing: border-box;
+    /* webkit vendor prefix  */
+    -webkit-box-sizing: border-box; 
+    /* standard CSS 3 rule*/ 
+    box-sizing: border-box;
+}
+
+/* body rules */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+body a:link{text-decoration: none;}
+body a:hover{text-decoration: underline;}
+body a:active{text-decoration: underline;}
+
+body p {
+    line-height: normal;
+}
+
+/* header rules */
+header {
+    text-align: center;
+    background-color: #EB9D44;
+    padding: 1rem 2%;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 900;
+}
+
+header h2 {
+    margin: 0;
+}
+
+/* main rules */
+main {
+    padding: 1rem 2%;
+}
+  
+footer {
+    padding: 1rem 0;
+    margin: 0;
+    text-align: center;
+    background-color: #EB9D44;
+} 
+
+/* section rules */
+section {
+    background-color: #F5F5F5;
+    margin: 1rem auto;
+    max-width: min-content;
+    box-shadow: 2px 2px 4px 4px #ccc;
+    border-radius: 5px;
+    padding: 0;
+}
+
+section figure img{
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+section h3 {
+    margin: 0; 
+    padding: 1rem 4%;
+    color: #eee;
+    background-color: #0F6387;
+    border-radius: 5px 5px 0 0;
+}
+
+section h4, p {
+    padding: 4%;
+}
