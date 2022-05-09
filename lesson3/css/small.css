@@ -1,0 +1,96 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #6A808A;
+    color: #fff;
+}
+
+header div {margin-left: 10px;}
+header div img {width: 100px;}
+header h1 {margin: 0; font-family: Libre Baskerville, serif;}
+header h2 {margin: 10px 0; letter-spacing: 5px; font-size: 16px;}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #D6CFBA;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #333;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    background-color: #e4dcc3;
+    color: #333;
+}
+nav ul li.active a {
+    background-color: #a99f83;
+    color: #fff;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+hr {
+    border: .5px solid #ccd9de;
+}
+
+section {margin-bottom: 2.5rem;}
+
+h3 {
+    font-family: Libre Baskerville, serif;
+    margin-bottom: 0;
+}
+
+h4 {color: #756A8A; font-size: small;}
+
+#logo {max-width: 200px;}
+
+.colors {
+    text-align: center;
+    margin: auto;
+    max-width: 200px;
+}
+.colors h4 {margin: 0; padding: 1rem;}
+.colors p {margin: 0; padding: 1rem;}
+
+.primary {background-color: #6a808a;}
+.secondary {background-color: #D6CFBA;}
+.accent1 {background-color: #756A8A;}
+.accent2 {background-color: #CCD9DE;}  
+
+#scenarios {line-height: 1.8;}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #6A808A;
+    color: #fff;
+    padding: .5rem 2%;
+    text-align: center;
+}
