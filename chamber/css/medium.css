@@ -1,0 +1,60 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+    
+    
+    
+    /*----------- HEADER --------------*/
+    header h1 {font-size: 26px;}
+    
+    
+    /*----------- NAVIGATION --------------*/
+    nav {margin-left: auto;}
+
+    /* nav{
+        position: absolute;
+        right: .5rem;
+    }
+
+    header div.social {
+        margin-left: auto;
+
+    } */
+    
+    /*----------- MAIN --------------*/
+    main {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "hero hero hero"
+          "news news news"
+          "spotlight spotlight spotlight"
+          "join join join"
+          "event event weather";
+      }
+      
+    .hero { grid-area: hero; }
+    
+    .news { grid-area: news; }
+    
+    .spotlight { grid-area: spotlight; }
+    
+    .join { grid-area: join; }
+    
+    .event { grid-area: event; }
+    
+    .weather { grid-area: weather; }
+      
+    
+    /*----------- FOOTER --------------*/
+    footer address {display: flex;}
+
+    footer address div#address {text-align: start; margin: 0 1rem;}
+    footer address div#contact-info{margin-left: auto;}
+
+} /* end of media query */

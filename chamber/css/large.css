@@ -1,0 +1,50 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+    header h1 {font-size: 30px;}    
+
+
+/*----------- NAVIGATION --------------*/
+    nav button {display: none;}
+
+    nav {justify-content: space-between;}
+
+    nav ul {display: flex;}
+
+    nav ul li a{padding: .5rem 1rem;}
+
+
+/*----------- MAIN --------------*/
+    main {
+        margin: 2% 0;
+        display: grid; 
+        grid-template-columns: 1fr 50% 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 10px 10px; 
+        grid-template-areas: 
+          "event hero spotlight"
+          "weather hero spotlight"
+          "join news spotlight"; 
+    }
+
+    .event { grid-area: event; }
+    .weather { grid-area: weather; }
+    .join { grid-area: join; }
+    .news { grid-area: news; }
+    .hero { grid-area: hero; }
+    .spotlight { grid-area: spotlight; }
+
+
+/*----------- FOOTER --------------*/
+
+} /* end of media query */
