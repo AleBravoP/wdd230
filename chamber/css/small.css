@@ -14,7 +14,7 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #6A808A;
+    background-color: #4c6e7e;
     color: #fff;
 }
 
@@ -32,7 +32,7 @@ header h1 {
 }
 
 header h3 {
-    background-color: #4c6e7e;
+    border: 1px solid #ccd9de;
     text-align: center;
     font-size: smaller;
     padding: .5rem; 
@@ -88,7 +88,6 @@ nav ul.open {display: block;}
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
-    margin: 2% 0;
     min-height: 20rem;
 }
 
@@ -109,7 +108,7 @@ h4 {color: #756A8A; font-size: small;}
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #6A808A;
+    background-color: #4c6e7e;
     color: #fff;
     font-size: small;
     padding: .5rem 2%;
@@ -120,5 +119,6 @@ footer a:visited {color: #fff;}
 footer address {font-style: normal; text-align: center;}
 footer address img {width: 100px;}
 footer address div#contact-info a {text-decoration: none;}
+footer address div p#chamber-name {font-weight: bolder;}
 
 footer div#base-footer {text-align: center;}
