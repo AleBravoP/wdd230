@@ -65,7 +65,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #4c6e7e;
+    background-color: #365868;
     color: #fff;
 }
 
@@ -86,6 +86,13 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 /*----------- MAIN --------------*/
+div#meeting-message {
+    padding: .5rem 2%;
+    background-color: #D6CFBA;
+}
+div.showme {display: block;}
+div.hideme {display: none;}
+
 main {
     padding: 0 2%;
     min-height: 20rem;
