@@ -24,7 +24,11 @@
 <body>
     <header>
         <div class="main-header">
-            <img id="logo" alt="logo" src="images/logo.PNG">
+            <picture>
+                <img id="logo" alt="logo" src="images/logo.PNG"
+                    srcset="images/logo1.jpg 1x, 
+                    images/logo2.jpg 2x, images/logo1.jpg 3x">
+            </picture>
             <h1>Queretaro Chamber of Commerce</h1>
 
             <!-- NAVIGATION HERE -->
@@ -112,7 +116,11 @@
     <!-- FOOTER HERE -->   
     <footer>
         <address>
-            <img src="images/logo.PNG" alt="logo">
+            <picture>
+                <img id="logo" alt="logo" src="images/logo.PNG"
+                    srcset="images/logo1.jpg 1x, 
+                    images/logo2.jpg 2x, images/logo1.jpg 3x">
+            </picture>
             <div id="address">
                 <p id="chamber-name">Queretaro Chamber of Commerce</p>
                 <p>San Pablo, 76159 Santiago de Querétaro, Qro.</p>
@@ -127,7 +135,7 @@
         <div id="base-footer">
             &copy;<span id="year"></span> Queretaro Chamber | <span id="name"></span> | WDD 230 Project | Last Modification: <span id="modifDate"></span>
         </div>
-        </footer>
+    </footer>
     <script src="js/main.js"></script>
   
 </body>
