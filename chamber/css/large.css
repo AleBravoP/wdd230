@@ -6,12 +6,14 @@
         margin:auto;
     }
 
+    header div.main-header img#logo {width: 100px;}
+
 /*----------- BODY --------------*/
 
 
 
 /*----------- HEADER --------------*/
-    header h1 {font-size: 30px;}    
+    header h1 {font-size: 30px; margin: 0 1rem;}    
 
 
 /*----------- NAVIGATION --------------*/
@@ -25,7 +27,7 @@
 
 
 /*----------- MAIN --------------*/
-    main {
+    .main-grid {
         margin: 2% auto;
         display: grid; 
         grid-template-columns: 1fr 50% 1fr; 
