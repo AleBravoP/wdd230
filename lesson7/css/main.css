@@ -1,0 +1,44 @@
+/* Tell the box sizing to follow the border-box protocol */
+/* uising a Mozila vendor prefix; */
+* { -moz-box-sizing: border-box;
+    /* webkit vendor prefix  */
+    -webkit-box-sizing: border-box; 
+    /* standard CSS 3 rule*/ 
+    box-sizing: border-box;
+}
+
+/* body rules */
+body {
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+}
+
+
+/* main rules */
+main {
+    padding: 1rem 2%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pictures {
+    text-align: center;
+}
+
+picture {
+    display: block;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    max-width: 300px;
+    width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+  
