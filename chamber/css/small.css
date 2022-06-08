@@ -24,7 +24,7 @@ header div.main-header{
     align-items: center;
 }
 
-header div.main-header img#logo {width: 80px;}
+header div.main-header img.logo {width: 80px;}
 
 header h1 {
     margin: 0; 
