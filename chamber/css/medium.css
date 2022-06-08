@@ -35,14 +35,19 @@
             "spotlight1 spotlight2"
             "join join"
             "event weather"; 
-}
-.hero { grid-area: hero; }
-.news { grid-area: news; }
-.spotlight1 { grid-area: spotlight1; }
-.spotlight2 { grid-area: spotlight2; }
-.join { grid-area: join; }
-.event { grid-area: event; }
-.weather { grid-area: weather; }
+    }
+    .hero { grid-area: hero; }
+    .news { grid-area: news; }
+    .spotlight1 { grid-area: spotlight1; }
+    .spotlight2 { grid-area: spotlight2; }
+    .join { grid-area: join; }
+    .event { grid-area: event; }
+    .weather { grid-area: weather; }
+
+    div.action-call {
+        top: 50%;
+        width: 50%;
+    }
     
     /*----------- FOOTER --------------*/
     footer address {display: flex;}

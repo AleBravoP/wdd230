@@ -94,12 +94,53 @@ div#meeting-message {
 div.showme {display: block;}
 div.hideme {display: none;}
 
-#picture-hero {margin: 2% auto;}
-#picture-hero picture img {width: 100%;}
+#banner-picture {margin: 2% auto;}
+#banner-picture picture img {width: 100%;}
 
 .main-grid {
     margin: 2%;
     padding: 0 2%;
+}
+
+.hero {
+    border-style: solid; 
+    border-color: #ccd9de;
+    min-height: 8rem;
+    margin: 10px 0;
+    padding: 0;
+}
+
+div.hero {position: relative;}
+
+div.hero picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.action-call {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 50%;
+    background-color: #D6CFBA;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+div.action-call button.hero-button {
+    border-radius: 5px;
+    padding: .3rem;
+    border: none;
+    color: #fff;
+    background-color: #887c56;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+div.action-call button.hero-button:hover {
+    background-color: #5c584c;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 hr {border: .5px solid #ccd9de;}
@@ -110,7 +151,7 @@ h3 {
 
 h4 {color: #756A8A; font-size: small;}
 
-.event, .weather, .join, .news, .hero, .spotlight1, .spotlight2 {
+.event, .weather, .join, .news, .spotlight1, .spotlight2 {
     border-style: solid; 
     border-color: #ccd9de;
     min-height: 8rem;
