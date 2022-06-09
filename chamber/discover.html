@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Queretaro">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Discover</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <img src="images/logo.webp" alt="sitelogo" class="logo">
+            <h1>Queretaro Chamber of Commerce</h1>
+
+            <!-- NAVIGATION HERE -->
+            <div class="social">
+                <a href="http://www.facebook.com/">
+                    <img src="images/f-logo.png" alt="facebook logo">
+                </a>
+                <a href="http://www.twitter.com/">
+                    <img src="images/t-logo.png" alt="twitter logo">
+                </a>
+            </div>
+            <nav>
+                <button id="hamburgerBtn"><span >&#9776;</span><span >X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="discover.html">Discover</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>  
+                </ul>
+            </nav>
+        </div>
+
+        <h3 id="date"></h3>
+    </header>  
+
+    <!-- MAIN HERE --> 
+    <main class="discover">
+        <h1>Discover Queretaro</h1>
+
+        <section class="demographic">
+            <h2>Demographic Information</h2>
+            <hr>
+            <p>Queretaro is the 21st city in Mexico with the higher number in the 
+                amount of population, according to the 2020 census there are 
+                2,368,467 living in the city. </p>
+            <p>With a territory of 11,690 km2, it is one of the smallest states in 
+                the country, however it is an important contributor to the national 
+                GDP. </p>
+            <p>Due to the state’s industry, low crime rate, and overall life 
+                standards, the population in Queretaro has increased in the last 
+                decade about 40% by constant migration into the state. </p>
+        </section>
+
+        <section class="discover-pictures">
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/arcos.webp" alt="Aqueduct Los Arcos" sizes="60vw"
+                    srcset="images/arcos400.webp 400w,
+                        images/arcos650.webp 650w,
+                        images/arcos900.webp 900w">
+                <figcaption>Los Arcos</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/bernal.webp" alt="Pena de Bernal" sizes="60vw"
+                    srcset="images/bernal400.webp 400w,
+                        images/bernal650.webp 650w,
+                        images/bernal900.webp 900w">
+                <figcaption>Pena de Bernal</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/congresos.webp" alt="Convention Center" sizes="60vw"
+                    srcset="images/congresos400.webp 400w,
+                        images/congresos650.webp 650w,
+                        images/congresos900.webp 900w">
+                <figcaption>Centro de Congresos</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/morin.webp" alt="Cultural Center" sizes="60vw"
+                    srcset="images/morin400.webp 400w,
+                        images/morin650.webp 650w,
+                        images/morin900.webp 900w">
+                <figcaption>Cultural Center "Manuel Gomez Morin"</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/universidad.webp" alt="Universidad Avenue" sizes="60vw"
+                    srcset="images/universidad400.webp 400w,
+                        images/universidad650.webp 650w,
+                        images/universidad900.webp 900w">
+                <figcaption>Universidad Avenue</figcaption>
+            </figure>
+        </section>
+
+        <div class="visits">
+            <p>Number of visits: <span class="visit-count"></span></p>
+        </div>
+    </main>
+
+    <!-- FOOTER HERE -->   
+    <footer>
+        <address>
+            <img src="images/logo.webp" alt="sitelogo" class="logo">
+            <div id="address">
+                <p id="chamber-name">Queretaro Chamber of Commerce</p>
+                <p>San Pablo, 76159 Santiago de Querétaro, Qro.</p>
+            </div>
+            <div id="contact-info">
+                <p>contact@queretarocc.com</p>
+                <p>+(52) 1234-5678</p>
+                <a href="https://goo.gl/maps/4RTYVgZ8a3S9kgCo8">&#128205; Location Map</a>
+            </div>
+        </address>
+        <hr>
+        <div id="base-footer">
+            &copy;<span id="year"></span> Queretaro Chamber | <span id="name"></span> | WDD 230 Project | Last Modification: <span id="modifDate"></span>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/lazy_load.js"></script>
+    <script src="js/visits.js"></script>
+</body>
+</html>

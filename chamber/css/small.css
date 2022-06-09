@@ -164,6 +164,60 @@ h4 {color: #756A8A; font-size: small;}
     min-height: 5rem;
 }
 
+
+/*----------- Discover --------------*/
+main.discover {
+    padding: 0 1rem;
+}
+
+main.discover h1 {
+    font-family: Libre Baskerville, serif;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+section.demographic{
+    box-shadow: 1px 1px 4px 1px #ccc;
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+section.discover-pictures {
+    margin: 3rem 0;
+}
+
+section.discover-pictures figure{
+    display: block;
+    margin: 0 auto 3rem auto;
+    width: fit-content;
+}
+
+section.discover-pictures figure img[data-src] {
+    filter: blur(0.2em);
+}
+
+section.discover-pictures figure img {
+    box-shadow: 1px 3px 5px 1px #ccc;
+    max-width: 500px;
+    width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+section.discover-pictures figure figcaption{
+    text-align: center;
+    margin: 1rem;
+}
+
+div.visits {
+    box-shadow: 1px 1px 4px 1px #ccc;
+    border-radius: 4px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: #4c6e7e;

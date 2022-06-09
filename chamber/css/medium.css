@@ -48,6 +48,14 @@
         top: 50%;
         width: 50%;
     }
+
+
+    /*----------- Discover --------------*/
+    section.discover-pictures figure img:hover {
+        box-shadow: 1px 5px 8px 1px #ccc;
+        max-width: 550px;
+        width: 120%;
+    }
     
     /*----------- FOOTER --------------*/
     footer address {display: flex;}
