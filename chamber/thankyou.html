@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Queretaro Chamber of Commerce">
+    <meta name="description" content="Thank You">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-    <title>Queretaro Chamber of Commerce</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Thank You</title>
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -23,7 +24,7 @@
 <body>
     <header>
         <div class="main-header">
-            <img id="logo" alt="logo" src="images/logo.PNG">
+            <img src="images/logo.webp" alt="sitelogo" class="logo">
             <h1>Queretaro Chamber of Commerce</h1>
 
             <!-- NAVIGATION HERE -->
@@ -38,10 +39,10 @@
             <nav>
                 <button id="hamburgerBtn"><span >&#9776;</span><span >X</span></button>
                 <ul id="primaryNav">
-                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="join.html">Join</a></li>
-                    <li class="active"><a href="contact.html">Contact Us</a></li>  
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>  
                 </ul>
             </nav>
         </div>
@@ -50,15 +51,17 @@
     </header>   
 
     <main>
+        <h1>Thank You!</h1>
+        <p class="thankMessage">Your information has been successfully submitted</p>
 
     </main>
 
     <!-- FOOTER HERE -->   
     <footer>
         <address>
-            <img src="images/logo.PNG" alt="logo">
+            <img src="images/logo.webp" alt="sitelogo" class="logo">
             <div id="address">
-                <h3>Queretaro Chamber of Commerce</h3>
+                <p id="chamber-name">Queretaro Chamber of Commerce</p>
                 <p>San Pablo, 76159 Santiago de Querétaro, Qro.</p>
             </div>
             <div id="contact-info">
@@ -71,7 +74,7 @@
         <div id="base-footer">
             &copy;<span id="year"></span> Queretaro Chamber | <span id="name"></span> | WDD 230 Project | Last Modification: <span id="modifDate"></span>
         </div>
-        </footer>
+    </footer>
     <script src="js/main.js"></script>
   
 </body>

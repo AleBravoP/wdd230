@@ -23,6 +23,9 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 const lastModif = new Intl.DateTimeFormat("en-US", { dateStyle: "full", timeStyle: "medium"}).format(date);
 document.querySelector("#modifDate").textContent = lastModif;
 
+// Set the datetime value to the hidden input in the join form
+document.querySelector("#formDatetime").value = date;
+
 
 
 // Show and display meeting message

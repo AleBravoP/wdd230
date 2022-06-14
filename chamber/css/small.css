@@ -87,6 +87,12 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 /*----------- MAIN --------------*/
+h1 {
+    font-family: Libre Baskerville, serif;
+    text-align: center;
+    margin: 3rem 0;
+}
+
 div#meeting-message {
     padding: .5rem 2%;
     background-color: #D6CFBA;
@@ -134,7 +140,7 @@ div.action-call button.hero-button {
     padding: .3rem;
     border: none;
     color: #fff;
-    background-color: #887c56;
+    background-color: #9c9379;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -168,12 +174,6 @@ h4 {color: #756A8A; font-size: small;}
 /*----------- Discover --------------*/
 main.discover {
     padding: 0 1rem;
-}
-
-main.discover h1 {
-    font-family: Libre Baskerville, serif;
-    text-align: center;
-    margin: 3rem 0;
 }
 
 section.demographic{
@@ -217,6 +217,84 @@ div.visits {
     text-align: center;
 }
 
+
+/*----------- FORM --------------*/
+form fieldset {
+    margin: 2rem auto;
+    box-shadow: 1px 1px 4px 1px #ccc;
+    border-radius: 4px;
+    padding: 2rem;
+    width: 95%;
+}
+
+form legend {
+    color: white;
+    margin: 0 1rem;
+    padding: .5rem .5rem;
+    background-color: #756A8A;
+    border-radius: 4px;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #756A8A;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select, form label.businessDesc textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    padding: .5rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+form label.businessDesc textarea {min-height: 150px;}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border:  none;
+    background-color: #D6CFBA;
+    border-radius: 5px;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+form input.submitBtn:hover{
+    color: white;
+    background-color: #9c9379;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+form label.top input:required {
+    border-left: #a11414 solid 4px;
+}
+
+form label.top input:required:valid {
+    border-left: #326b32 solid 4px;
+}
+
+.thankMessage, .joinMessage {
+    text-align: center;
+}
+
+.membershipDetail {
+    display: none;
+}
 
 /*----------- FOOTER --------------*/
 footer {
