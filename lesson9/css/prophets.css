@@ -1,0 +1,44 @@
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: #0f755e;
+}
+
+header {
+    text-align: center;
+    background-color: #94300F;
+    box-shadow: 3px 3px 6px 4px #444444;
+    color: white;
+    margin-bottom: 2%;
+    padding: .3rem 0;
+}
+
+header h1 {letter-spacing: .5rem;}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.cards section {
+    background-color: #fdfaee;
+    box-shadow: 2px 2px 5px 4px #444444;
+    margin: 5% auto;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.cards section img {
+    width: 60%;
+    box-shadow: 2px 2px 3px 2px #ccc;
+}
+
+footer {
+    text-align: center;
+    letter-spacing: .2rem;
+    background-color: #94300F;
+    box-shadow: 2px 2px 5px 3px #444444;
+    color: white;
+    padding: .5rem 0;
+    margin-top: 2%;
+}
