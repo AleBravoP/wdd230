@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Dulces Bernal",
+        "address": "Av. Benito Juárez No. 2, C.P. 76680 Bernal, Qro.",
+        "phoneNumber": "4412964148",
+        "website": "https://www.dulcesbernal.com/",
+        "logo": "https://static.wixstatic.com/media/c70ad6_301bd9c48d5c432abd06c1230e415d8b~mv2.png/v1/fill/w_136,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LOGO_BERNAL.png",
+        "membershipLevel": "",
+        "numberOfEmployees": 502
+    },
+    {
+        "name": "Madre Tierra",
+        "address": "C. Francisco I. Madero 24, Centro, 76000 Santiago de Querétaro, Qro.",
+        "phoneNumber": "4422143330",
+        "website": "https://shop.tiendasmadretierra.mx/shop",
+        "logo": "https://cdn.shopify.com/s/files/1/0109/4110/4194/files/IMG_5061_180x.PNG?v=1602094454",
+        "membershipLevel": "",
+        "numberOfEmployees": 346
+    },
+    {
+        "name": "Leche Queretaro",
+        "address": "5 De Febrero KM 5.5 273, Benito Juarez Queretaro, Qro.",
+        "phoneNumber": "4421013416",
+        "website": "http://www.lecheqro.com.mx/",
+        "logo": "https://www.ubico.me/assets_mx/img_empresa/l/leche-queretaro-239399.gif",
+        "membershipLevel": "",
+        "numberOfEmployees": 948
+    },
+    {
+        "name": "¡Ay Güey!",
+        "address": "Av. Chabacano, 124. Los Candiles. Corregidora, Qro.",
+        "phoneNumber": "8006294839",
+        "website": "https://www.ayguey.mx/en",
+        "logo": "https://cdn.shopify.com/s/files/1/0809/3349/files/Logo_Rojo_848db0c7-a372-4dcd-9974-25599352c366_600x.png?v=1621543469",
+        "membershipLevel": "",
+        "numberOfEmployees": 425
+    },
+    {
+        "name": "Firma Diseño",
+        "address": "Calle José María Morelos, 230. Colonia Centro. Queretaro, Qro.",
+        "phoneNumber": "4422154654",
+        "website": "http://www.grupofirma.mx",
+        "logo": "http://www.grupofirma.mx/img/logo.png",
+        "membershipLevel": "",
+        "numberOfEmployees": 915
+    },
+    {
+        "name": "Llantera Automotriz",
+        "address": "Calle Radio Difusora 60, Colonia Centro. Querétaro, Qro.",
+        "phoneNumber": "5553900576",
+        "website": "http://www.llantera-automotriz.com",
+        "logo": "http://www.llantera-automotriz.com/images/logollantera.png?crc=469107274",
+        "membershipLevel": "",
+        "numberOfEmployees": 241
+    },
+    {
+        "name": "Marmol & Granito",
+        "address": "Carretera Federal 57 México-Qcuerétaro 209, Colonia Balaustradas. Querétaro, Qro.",
+        "phoneNumber": "4422481612",
+        "website": "http://marmolycantera.com.mx/",
+        "logo": "http://marmolycantera.com.mx/wp-content/uploads/2016/07/marmol_onix_logo_grey_landing_page-1.png",
+        "membershipLevel": "",
+        "numberOfEmployees": 615
+    },
+    {
+        "name": "Conservatorio de Musica",
+        "address": "Josefa Vergara No. 35, BIS, Centro Histórico, Santiago de Querétaro, Qro.",
+        "phoneNumber": "4422125984",
+        "website": "https://conservatorio.com.mx/",
+        "logo": "https://conservatorio.com.mx/fondos/logo_barra2.png",
+        "membershipLevel": "",
+        "numberOfEmployees": 346
+    },
+    {
+        "name": "Centro de Estudios Superiores del Bajio",
+        "address": "Calle Cto Puerta del Sol 701, Colonia Ciudad del Sol. Querétaro, Qro.",
+        "phoneNumber": "4422602193",
+        "website": "https://www.cesba-queretaro.edu.mx/",
+        "logo": "https://www.cesba-queretaro.edu.mx/wp-content/uploads/2021/06/logo_cesba.png",
+        "membershipLevel": "",
+        "numberOfEmployees": 232
+    }
+]

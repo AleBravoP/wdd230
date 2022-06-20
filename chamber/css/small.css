@@ -30,6 +30,7 @@ header h1 {
     margin: 0; 
     font-family: Libre Baskerville, serif;
     font-size: 20px;
+    text-align: start;
 }
 
 header h3 {
@@ -90,7 +91,7 @@ nav ul.open {display: block;}
 h1 {
     font-family: Libre Baskerville, serif;
     text-align: center;
-    margin: 3rem 0;
+    margin: 3rem 0 1rem 0;
 }
 
 div#meeting-message {
@@ -104,14 +105,16 @@ div.hideme {display: none;}
 #banner-picture picture img {width: 100%;}
 
 .main-grid {
-    margin: 2%;
+    margin: 2% auto;
     padding: 0 2%;
 }
 
 .hero {
-    border-style: solid; 
-    border-color: #ccd9de;
-    min-height: 8rem;
+    border-style: none; 
+    box-shadow: 1px 1px 4px 1px #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    min-height: 4rem;
     margin: 10px 0;
     padding: 0;
 }
@@ -149,20 +152,26 @@ div.action-call button.hero-button:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
-hr {border: .5px solid #ccd9de;}
-
-h3 {
-    font-family: Libre Baskerville, serif;
+hr {
+    border: .5px solid #ccd9de;
+    margin-bottom: 1rem;
+    width: 50%;
 }
+
+.demographic hr, footer hr {
+    width: 100%;
+}
+
+h3 {font-family: Libre Baskerville, serif;}
 
 h4 {color: #756A8A; font-size: small;}
 
 .event, .weather, .join, .news, .spotlight1, .spotlight2 {
-    border-style: solid; 
-    border-color: #ccd9de;
-    min-height: 8rem;
+    border-style: none; 
+    box-shadow: 1px 1px 4px 1px #ccc;
+    border-radius: 4px;
     margin: 10px 0;
-    padding: 0 4%;
+    padding: 2% 4% 8% 4%;
 }
 
 .spotlight1 div, .spotlight2 div {
@@ -222,6 +231,7 @@ div.visits {
 form fieldset {
     margin: 2rem auto;
     box-shadow: 1px 1px 4px 1px #ccc;
+    border: none;
     border-radius: 4px;
     padding: 2rem;
     width: 95%;
@@ -233,6 +243,7 @@ form legend {
     padding: .5rem .5rem;
     background-color: #756A8A;
     border-radius: 4px;
+    box-shadow: 1px 1px 2px 1px #ccc;
 }
 
 form label.top, form div {
@@ -295,6 +306,85 @@ form label.top input:required:valid {
 .membershipDetail {
     display: none;
 }
+
+
+/*--------- BUSINESS DIRECTORY ---------*/
+.menu {
+	margin: 1rem auto;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.menu button {
+    margin: 0 20px;
+	padding: 1rem;
+    border:  none;
+    background-color: #D6CFBA;
+    border-radius: 5px;
+    padding: .75rem 1.5rem;
+    box-shadow: 0 8px 8px 0 #0000004d;
+}
+
+.menu button:hover {
+    color: white;
+    background-color: #9c9379;
+    box-shadow: 0 4px 4px 0 #0000004d;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.grid section > * {margin: 0.1rem;}
+
+.list section {
+    display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: left;
+    border: none;
+    box-shadow: 1px 1px 3px 2px #ccc;
+    border-radius: 4px;
+    width: 95%;
+    min-height: 150px;
+    margin: 2% auto;
+    padding: 1rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list section img{display: none;} /* smaller viewports only */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.grid section {
+    flex-direction: column;
+	text-align: center;
+    border: none;
+    box-shadow: 1px 1px 3px 2px #ccc;
+    border-radius: 4px;
+    width: 300px;
+    height: 250px;
+    margin: 5% auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.grid section img {width: 50%;}
+
+.grid section h2, .list section h2 {font-size: medium; color: #a39772;}
+.grid section p, a {font-size: small;}
+.list section p, a {font-size: small;}
+
 
 /*----------- FOOTER --------------*/
 footer {

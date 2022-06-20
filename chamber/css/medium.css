@@ -27,7 +27,7 @@
         display: grid; 
         grid-template-columns: 1fr 1fr; 
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
-        gap: 0 10px; 
+        gap: 0 2%; 
         grid-template-areas: 
             "hero hero"
             "news news"
@@ -48,6 +48,10 @@
         width: 50%;
     }
 
+    .list section img {
+        display: inline;
+        width: 150px;
+    }
 
     /*----------- Discover --------------*/
     section.discover-pictures figure img:hover {
