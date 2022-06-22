@@ -48,12 +48,14 @@ function displayBusinesses(business) {
     let logo = document.createElement('img');
     let h2 = document.createElement('h2');
     let phone = document.createElement('p');
+    let address = document.createElement('p');
     let website = document.createElement('a');
     let info = document.createElement('div');
 
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = business.name;
     phone.textContent = business.phoneNumber;
+    address.textContent = business.address;
     website.textContent = business.website;
 
     // Build the image attributes by using the setAttribute method for the src, alt and 
@@ -68,6 +70,7 @@ function displayBusinesses(business) {
     card.appendChild(logo);
     card.appendChild(h2);
     info.appendChild(phone);
+    info.appendChild(address);
     info.appendChild(website);
 
     card.appendChild(info)

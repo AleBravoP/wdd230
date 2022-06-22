@@ -347,12 +347,14 @@ form label.top input:required:valid {
     box-shadow: 1px 1px 3px 2px #ccc;
     border-radius: 4px;
     width: 95%;
-    min-height: 150px;
+    height: 200px;
     margin: 2% auto;
     padding: 1rem;
     text-align: center;
     overflow: hidden;
 }
+
+.list section div {width: 50%;}
 
 .list section > * {
 	margin: 0 1rem;
@@ -373,7 +375,7 @@ form label.top input:required:valid {
     box-shadow: 1px 1px 3px 2px #ccc;
     border-radius: 4px;
     width: 300px;
-    height: 250px;
+    height: 300px;
     margin: 5% auto;
     padding: 1rem;
     text-align: center;
