@@ -24,29 +24,18 @@ const lastModif = new Intl.DateTimeFormat("en-US", { dateStyle: "full", timeStyl
 document.querySelector("#modifDate").textContent = lastModif;
 
 // Set the datetime value to the hidden input in the join form
-document.querySelector("#formDatetime").value = date;
-
-
-
-// Show and display meeting message
-const dayNumber = date.getDay();
-console.log(dayNumber);
-
-const element = document.getElementById("meeting-message");
-
-if ((dayNumber == 1)||(dayNumber == 2)) {
-    element.classList.add("showme");
-} else {
-    element.classList.add("hideme");
-};
-
+// document.querySelector("#formDatetime").value = date;
 
 
 // Hamburger Button function
 function toggleMenu() {
+    console.log('hamburguer button pressed');
     document.getElementById("primaryNav").classList.toggle("open");
     document.getElementById("hamburgerBtn").classList.toggle("open");
 }
 
-const x = document.getElementById('hamburgerBtn')
+const hamburguer = document.getElementById('hamburgerBtn');
+hamburguer.onclick = toggleMenu;
+
+const x = document.getElementById('xBtn');
 x.onclick = toggleMenu;

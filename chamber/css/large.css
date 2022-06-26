@@ -13,7 +13,7 @@
 
 
 /*----------- HEADER --------------*/
-    header h1 {font-size: 30px; margin: 0 1rem;}    
+    header h1 {font-size: 35px; margin: 0 1rem;}    
 
 
 /*----------- NAVIGATION --------------*/
@@ -24,6 +24,10 @@
     nav ul {display: flex;}
 
     nav ul li a{padding: .5rem 1rem;}
+
+    nav div.social img {
+        margin: 0 10px;
+    }
 
 
 /*----------- MAIN --------------*/

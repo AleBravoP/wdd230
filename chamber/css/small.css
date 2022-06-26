@@ -9,18 +9,18 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-size: 16px;
     font-family: Verdana, sans-serif;
+    transition: background-color .5s;
 }
 
 /*----------- HEADER --------------*/
 header {
-    padding: .5rem 2%;
+    padding: .5rem 2% 0 2%;
     background-color: #4c6e7e;
-    color: #fff;
 }
 
 header div.main-header{
     display: grid;
-    grid-template-columns: 100px auto 60px auto;
+    grid-template-columns: 100px auto 60px ;
     align-items: center;
 }
 
@@ -30,25 +30,37 @@ header h1 {
     margin: 0; 
     font-family: Libre Baskerville, serif;
     font-size: 20px;
-    text-align: start;
+    letter-spacing: .2rem;
+    color: #fff;
 }
 
 header h3 {
-    border: 1px solid #ccd9de;
     text-align: center;
     font-size: smaller;
     padding: .5rem; 
+    color: #fff;
 }
 
-header a:visited {color: #fff;}
+header a:visited {color: #365868;}
 
 /*----------- NAVIGATION --------------*/
+header div.main-header nav {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #ccd9de;
+    grid-column: 1 / 4;
+    box-shadow: 1px 1px 4px 1px #5c5c5c;
+    display: grid;
+    grid-template-columns: auto 120px;
+}
+
 nav button {
     margin: .2rem 0;
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #fff;
+    color: #365868;
+    text-align: start;
 }
 
 nav ul {
@@ -59,7 +71,6 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #fff;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -73,13 +84,31 @@ nav ul li a:hover {
 
 nav ul li.active a {
     text-decoration: underline;
+    background-color: #365868;
     color: #fff;
 }
 
-header div.social img {width: 25px;}
+nav div.social img {width: 25px;}
+
+nav div.social {margin: 2px auto; padding: 0 10px;}
 
 nav ul {display: none;}
-nav ul.open {display: block;}
+nav ul.open {
+    display: block;
+    height: 100%;
+    width: 65%;
+    max-width: 350px;
+    background-color: #ccd9de;
+    box-shadow: 1px 1px 4px 1px #555555;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2rem 1rem;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: start;
+}
 
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
@@ -125,6 +154,7 @@ div.hero picture img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 
 div.action-call {
