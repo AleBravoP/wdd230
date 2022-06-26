@@ -83,7 +83,7 @@ nav ul li a:hover {
 }
 
 nav ul li.active a {
-    text-decoration: underline;
+    text-decoration: none;
     background-color: #365868;
     color: #fff;
 }
@@ -201,7 +201,7 @@ h4 {color: #756A8A; font-size: small;}
     box-shadow: 1px 1px 4px 1px #ccc;
     border-radius: 4px;
     margin: 10px 0;
-    padding: 2% 4% 8% 4%;
+    padding: 2% 15px 8% 15px;
 }
 
 .spotlight1 div, .spotlight2 div {
@@ -209,6 +209,15 @@ h4 {color: #756A8A; font-size: small;}
     min-height: 5rem;
 }
 
+div.weather h3 {display: inline;}
+div.weather figure {display: inline;}
+p.temp {
+    font-size: xx-large; 
+    text-align: center; 
+    line-height: .2; 
+    color: #756A8A
+}
+p.cond {font-size: large; font-weight: bold; text-align: center;}
 
 /*----------- Discover --------------*/
 main.discover {
@@ -434,3 +443,7 @@ footer address div#contact-info a {text-decoration: none;}
 footer address div p#chamber-name {font-weight: bolder;}
 
 footer div#base-footer {text-align: center;}
+
+.ow-credit {
+    width: 80px;
+}
