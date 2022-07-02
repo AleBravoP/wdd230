@@ -204,9 +204,8 @@ h4 {color: #756A8A; font-size: small;}
     padding: 2% 15px 8% 15px;
 }
 
-.spotlight1 div, .spotlight2 div {
-    background-color: #ccd9de;
-    min-height: 5rem;
+.spotlight-pic {
+    max-width: 100%;
 }
 
 div.weather h3 {display: inline;}
