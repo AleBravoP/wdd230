@@ -1,0 +1,30 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+.main-header {
+    font-size: 50px;
+}
+
+/*----------- NAVIGATION --------------*/
+.navigation-bar nav ul {
+    display: flex;
+    float: left;
+    padding: 0;
+}
+
+/*----------- MAIN --------------*/
+
+
+/*----------- FORM --------------*/
+   
+
+/*----------- FOOTER --------------*/
+
+} /* end of media query */

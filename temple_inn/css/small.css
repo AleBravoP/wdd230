@@ -1,0 +1,108 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Crimson Text', serif;
+}
+
+/*----------- HEADER --------------*/
+.main-header {
+    margin: 0;
+    padding: 1rem 4rem;
+    text-align: center;
+    letter-spacing: .5rem;
+    color: #856522;
+    background-image: linear-gradient(to bottom right, #aa8433, #E6BF6A, #997628);
+}
+
+/*----------- NAVIGATION --------------*/
+.navigation-bar {
+    background-color: #375899;
+    display: grid;
+    grid-template-columns: auto 4fr 1fr;
+    padding: 0 4rem;
+    align-items: center;
+    box-shadow: 0 8px 14px 2px #00000083;
+}
+
+.logo {
+    width: 140px;
+    margin: 0 4rem 0 0;
+    padding: 2px 0 0 0;
+}
+
+.navigation-bar nav ul {
+    display: flex;
+    float: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation-bar nav ul li {
+    margin: 0 auto;
+    color: #fff;
+}
+
+.navigation-bar nav ul li a {
+    text-decoration: none;
+    padding: 2.5rem;
+    color: #fff;
+}
+
+.navigation-bar nav ul li.active a {
+    background-color: #2b4477;
+}
+
+.navigation-bar nav ul li a:hover {
+    background-color: #253c69;
+}
+
+.social {text-align: end;}
+
+.social img{
+    width: 35px;
+    margin: 0 1rem;
+}
+
+.navigation-bar nav button {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    text-align: start;
+}
+
+/*----------- MAIN --------------*/
+main {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #375899;
+    color: #fff;
+    padding: 1rem 3rem;
+    display: grid;
+    grid-template-columns: auto 3fr 1fr;
+}
+
+.footer-contact a, .footer-address a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.base-footer {
+    grid-column: 1 / 4;
+    text-align: center;
+}
