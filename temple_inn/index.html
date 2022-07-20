@@ -29,8 +29,9 @@
         <!-- NAVIGATION HERE -->
         <div class="navigation-bar">
             <a href="index.html"><img src="images/temple_logo.webp" alt="Temple Inn Logo" class="logo"></a>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <nav>
-                <ul>
+                <ul id="primaryNav">
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="temple.html">Temple</a></li>
                     <li><a href="reservation.html">Reservation</a></li>
@@ -38,14 +39,28 @@
                 </ul>
             </nav>
 
-            <div class="social">
+            <div id="social">
                 <a href="http://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook logo"></a>
                 <a href="http://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="Instagram Logo"></a>
             </div>    
         </div>
     </header>
 
+    <div id="banner-picture">
+        <picture>
+            <source media="(max-width: 400px)" srcset="images/banner400.webp">
+            <source media="(max-width: 650px)" srcset="images/banner650.webp">
+            <source media="(max-width: 900px)" srcset="images/banner900.webp">
+            <img src="images/banner.webp" alt="hero picture">
+        </picture>
+        <div class="action-call">
+            <h4>Come have a spiritual experience and a well deserved rest at our inn</h4>
+            <button class="hero-button">Reserve Now!</button>
+        </div>
+    </div>
+
     <main>
+        
         <h1>Here goes main</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi dolore deserunt quisquam minus nesciunt omnis, doloribus est non voluptas placeat maiores facilis adipisci, ab maxime unde saepe laudantium quia?</p>
     

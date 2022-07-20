@@ -9,10 +9,40 @@
     
     
     /*----------- NAVIGATION --------------*/
+    /* .logo {
+        margin: 0 0 0 1rem;
+    } */
 
+    .navigation-bar {
+    display: grid;
+    grid-template-columns: auto 3fr 1fr;
+    align-items: center;
+    }
+
+    .navigation-bar button {display: none;}
+
+    .navigation-bar nav {grid-column: 2/3;}
+    .navigation-bar nav ul#primaryNav {
+        display: flex;
+        margin: 0;
+    }
     
-    /*----------- MAIN --------------*/
+    .navigation-bar nav ul li a {
+        padding: 2.5rem 3vw;
+    }
 
+    #social {
+        grid-column: 3;
+        margin: 0;
+        display: block;
+    }
+
+    /*----------- MAIN --------------*/
+    div.action-call {
+        bottom: 20%;
+        left: 10%;
+        width: 250px;
+    }
 
     /*----------- Discover --------------*/
  
@@ -22,6 +52,20 @@
 
     
     /*----------- FOOTER --------------*/
+    footer {
+        padding: 1rem 1rem 1rem 0;
+        display: grid;
+        grid-template-columns: auto 2fr 1fr;
+        text-align: start;
+        font-size: 14px;
+    }
 
+    .footer-address{margin-left: 5%;}
+
+    .base-footer {
+        grid-column: 1 / 4;
+        text-align: center;
+        padding-left: 1rem;
+    }
 
 } /* end of media query */

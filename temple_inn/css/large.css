@@ -13,18 +13,19 @@
 }
 
 /*----------- NAVIGATION --------------*/
-.navigation-bar nav ul {
-    display: flex;
-    float: left;
-    padding: 0;
+.navigation-bar {
+    padding: 0 4rem;
+    align-items: center;
 }
 
 /*----------- MAIN --------------*/
-
+div.action-call {font-size: large;}
 
 /*----------- FORM --------------*/
    
 
 /*----------- FOOTER --------------*/
-
+footer {
+    padding: 1rem 4rem;
+}
 } /* end of media query */
