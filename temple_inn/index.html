@@ -54,16 +54,56 @@
             <img src="images/banner.webp" alt="hero picture">
         </picture>
         <div class="action-call">
-            <h4>Come have a spiritual experience and a well deserved rest at our inn</h4>
+            <h4>Come have a spiritual experience and a well deserved rest</h4>
             <button class="hero-button">Reserve Now!</button>
         </div>
     </div>
 
     <main>
         
-        <h1>Here goes main</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi dolore deserunt quisquam minus nesciunt omnis, doloribus est non voluptas placeat maiores facilis adipisci, ab maxime unde saepe laudantium quia?</p>
-    
+        <article class="the-temple">
+            <div>
+                <h2>Recife Temple</h2>
+                <p>The Recife Brazil Temple is the 101st operating temple of The Church of Jesus Christ of Latter-day Saints.
+                    Located in the city of Recife, capital of the Brazilian state of Pernambuco, 
+                    the grounds feature mango and palm trees and an ornamental garden. 
+                    This temple is larger than many LDS temples built during the same time in order to accommodate the 
+                    137,500 members of the church in northern Brazil.</p>
+            </div>
+            <img src="images/recife900.webp" alt="Recife Temple" class="temple-pic">
+        </article>
+
+        <section class="weather">
+                <div id="today">
+                    <h4>Weather</h4>
+                    <p class="cond"><span id="condition"></span></p>
+                    <p>Wind Speed: <span id="wind-speed"></span> km/h</p>
+                    <p id="windParent">Wind Chill: <span id="wind-chill"></span></p>
+                </div>
+                <figure>
+                    <img src="images/placeholder.jpg" alt="weather icon" id="weather-icon">
+                    <figcaption><span id="temperature"></span>°F</figcaption>
+                </figure>
+
+                <div class="forecast">
+                    <div id="forecast1">
+                        <p class="temp"><span id="temperature1"></span>°F</p>
+                        <p class="cond"><span id="condition1"></span></p>
+                        <p>Wind Speed: <span id="wind-speed1"></span> km/h</p>
+                    </div>
+                    <div id="forecast2">
+                        <p class="temp"><span id="temperature2"></span>°F</p>
+                        <p class="cond"><span id="condition2"></span></p>
+                        <p>Wind Speed: <span id="wind-speed2"></span> km/h</p>
+                    </div>
+                    <div id="forecast3">
+                        <p class="temp"><span id="temperature3"></span>°F</p>
+                        <p class="cond"><span id="condition3"></span></p>
+                        <p>Wind Speed: <span id="wind-speed3"></span> km/h</p>
+                    </div>
+                </div>
+        </section>
+
     </main>
 
     <footer>
@@ -79,7 +119,7 @@
         <div class="footer-contact">
             <h4>Contact Us!</h4>
             <p>&#128383; 800 - 123 - 1234</p>
-            <a href="#">&#128506; Location Map</a>
+            <a href="https://www.google.com/maps/place/Recife+Brazil+Temple/@-8.0360422,-34.9104984,15z/data=!4m5!3m4!1s0x0:0x7bdea9fb84e4b3f6!8m2!3d-8.0360422!4d-34.9104984" target="_blank">&#128506; Location Map</a>
         </div>
 
         <div class="base-footer">
@@ -89,6 +129,7 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/weather.js"></script>
 
 </body>
 </html>

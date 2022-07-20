@@ -19,7 +19,24 @@
 }
 
 /*----------- MAIN --------------*/
-div.action-call {font-size: large;}
+div.action-call {
+    font-size: large;
+    width: 25%;
+}
+
+img.temple-pic {
+    max-width: 600px;
+    height: 100%;
+}
+
+section.weather {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
+
+section.weather figure{margin: 0 5%;}
+.forecast div {margin: 0 2%;}
 
 /*----------- FORM --------------*/
    
