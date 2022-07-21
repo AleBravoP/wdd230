@@ -226,7 +226,7 @@ form label.top, form div, form label.sbs {
     font-size: .9rem;
 }
 
-form label.top input, form label.top select {
+form label.top input, form label.top select, label.message textarea {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
@@ -239,6 +239,7 @@ form label.top input, form label.top select {
 }
 
 form label.businessDesc textarea {min-height: 150px;}
+#messageBtn {margin: 2rem auto auto 0;}
 
 form label.top input:required {
     border-left: #a11414 solid 4px;
@@ -266,6 +267,11 @@ form label.top input:required:valid {
     background-image: linear-gradient(to bottom right, #cca757, #886823);
     color: rgba(255, 255, 255, 0.7);
     box-shadow: 2px 2px 4px 0 #0000004d;
+}
+
+form label.message textarea {
+    width: 100%;
+    min-height: 150px;
 }
 
 /*----------- FOOTER --------------*/
