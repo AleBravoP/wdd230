@@ -47,40 +47,10 @@
     </header>
 
     <main>
-        <h1>Make a Reservation</h1>
+        <h1>Thank you!</h1>
         <hr class="header-hr">
-
-        <section class="reservation-form">
-            <form method="get" action="thankyou.html">
-                <fieldset>
-                    <legend>Personal Information</legend>
-                    <label class="top">First Name* <input type="text" name="fname" required></label>
-                    <label class="top">Last Name* <input type="text" name="lname" required></label>
-                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                    <label class="top">Cell Phone Number* <input type="tel" name="phone" placeholder="123555123" required></label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Lodging</legend>
-                    <div>Dates</div>
-                    <label class="sbs"><input type="date" name="check-inn" id="start" required> Check Inn </label>
-                    <label class="sbs"><input type="date" name="check-out" id="end" required> Check Out </label>
-                    
-                    <div>People staying per room</div>
-                    <label class="sbs"><input type="number" id="adult-quantity" name="adults" min="1" max="3" required> Adults </label>
-                    <label class="sbs"><input type="number" id="kid-quantity" name="kids" min="0" max="3"> Kids </label>
-
-                    <div>Room Selection</div>
-                    <label class="sbs"><input type="radio" name="room" value="standard"> Standard Suite </label>
-                    <label class="sbs"><input type="radio" name="room" value="vip"> VIP Suite </label>
-                    <label class="sbs"><input type="radio" name="room" value="presidential"> Presidential Suite </label>
-
-                </fieldset>
-
-                <input type="submit" value="Make Reservation" class="submitBtn">
-
-            </form>
-        </section>
+        <p class="thankMessage">Your reservation has been succesfully submitted!</p>
+    
     </main>
 
     <footer>

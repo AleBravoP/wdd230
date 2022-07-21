@@ -183,7 +183,6 @@ section.weather figure figcaption{text-align: center; font-size: larger;}
 /*------------ TEMPLES ------------*/
 .temple-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
 }
 
 .temple-cards section > * {margin: 0.1rem;}
@@ -203,9 +202,59 @@ section.weather figure figcaption{text-align: center; font-size: larger;}
 .temple-cards section p {margin: 1% 0;}
 
 /*----------- FORM --------------*/
-/* button {
+form fieldset {
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 1px 1px 4px 1px #ccc;
+    border: none;
+    border-radius: 4px;
+    padding: 2rem;
+    width: 95%;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: .5rem .5rem;
+    background-color: #d0d7e4;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px 1px #ccc;
+}
+
+form label.top, form div, form label.sbs {
+    display: block;
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    padding: .5rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+form label.businessDesc textarea {min-height: 150px;}
+
+form label.top input:required {
+    border-left: #a11414 solid 4px;
+}
+
+form label.top input:required:valid {
+    border-left: #326b32 solid 4px;
+}
+
+.thankMessage {text-align: center;}
+
+.submitBtn {
+    width: 200px;
+    display: block;
     padding: .5rem 1rem;
-    margin: 0 0 1rem .5rem;
+    margin: 0 auto;
     border:  none;
     color: rgba(0, 0, 0, 0.6);
     border-radius: 5px;
@@ -213,10 +262,11 @@ section.weather figure figcaption{text-align: center; font-size: larger;}
     background-image: linear-gradient(to bottom right, #E6BF6A, #997628);
 }
 
-button:hover {
+.submitBtn:hover {
     background-image: linear-gradient(to bottom right, #cca757, #886823);
+    color: rgba(255, 255, 255, 0.7);
     box-shadow: 2px 2px 4px 0 #0000004d;
-} */
+}
 
 /*----------- FOOTER --------------*/
 footer {

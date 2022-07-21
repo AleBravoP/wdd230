@@ -88,7 +88,7 @@
 
 
     /*----------- FORM --------------*/
-
+    form fieldset {max-width: 600px;}
     
     /*----------- FOOTER --------------*/
     footer {
