@@ -38,6 +38,27 @@ section.weather {
 section.weather figure{margin: 0 5%;}
 .forecast div {margin: 0 2%;}
 
+/*----------- TEMPLES -------------*/
+.temple-cards section p {margin: 10px 0;}
+.temple-cards section h4:nth-child(1) {margin-top: 2%;}
+
+.temple-cards section img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.temple-cards section {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto auto auto; 
+    gap: 0px 15px; 
+    grid-template-areas: 
+        "name name"
+        "img ."
+        "img ."
+        "img ."; 
+}
+
 /*----------- FORM --------------*/
    
 

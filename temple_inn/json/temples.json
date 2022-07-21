@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Anchorage Alaska Temple",
+        "address": "13161 Brayton Dr, Anchorage AK 99516, United States",
+        "phoneNumber": "(1) 907-348-7890",
+        "services": {
+            "clothingRental": "No clothing rental available",
+            "cafeteria": "No cafeteria available",
+            "patronHousing": "No patron housing available",
+            "distributionCenter": "No distribution center nearby"
+        },
+        "history": {
+            "announced": "4 October 1997",
+            "groundbreaking": "17 April 1998",
+            "dedicated": "9 January 1999"
+        },
+        "closureSchedule": "5 September, 19 September - 30 September, 1 October - 2 October, 24 November, 24 December - 25 December, 31 December",
+        "picture": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/anchorage-alaska/800x450/anchorage-temple-lds-253274-wallpaper.jpg"
+    },
+
+    {
+        "name": "Lisbon Portugal Temple",
+        "address": "Avenida Dom João II, Lote 4.73.01, Parque Das Nacoes, 1998 - 014 Lisboa, Portugal",
+        "phoneNumber": "(351) 308-811-650",
+        "services": {
+            "clothingRental": "No clothing rental available",
+            "cafeteria": "No cafeteria available",
+            "patronHousing": "No patron housing available",
+            "distributionCenter": "No distribution center nearby"
+        },
+        "history": {
+            "announced": "2 October 2010",
+            "groundbreaking": "5 December 2015",
+            "dedicated": "15 September 2019"
+        },
+        "closureSchedule": "26 September - 10 October, 24 December, 31 December",
+        "picture": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lisbon-portugal/800x800/02-e8863cabbdad35c4efdf1301e5b453cd7d622423.jpeg"
+    },
+
+    {
+        "name": "Tijuana Mexico Temple",
+        "address": "Paseo Del Rio 6832, Esquina Campestre Oriente, Col 3 RA Etapa Rio Tijuana, 22226 Tijuana, Baja California, Mexico",
+        "phoneNumber": "(52) 664-969-2690",
+        "services": {
+            "clothingRental": "No clothing rental available",
+            "cafeteria": "No cafeteria available",
+            "patronHousing": "No patron housing available",
+            "distributionCenter": "Distribution center nearby"
+        },
+        "history": {
+            "announced": "2 October 2010",
+            "groundbreaking": "18 August 2012",
+            "dedicated": "13 December 2015"
+        },
+        "closureSchedule": "1 October, 28 November - 12 December, 24 December, 31 December",
+        "picture": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/tijuana-mexico/800x500/tijuana-mexico-temple-exterior-1603896-wallpaper.jpg"
+    },
+
+    {
+        "name": "Praia Cape Verde Temple",
+        "address": "Avenida Cidade de Lisboa, Bairro Taiti, 7600 Praia, São Tiago, Cape Verde",
+        "phoneNumber": "n/a",
+        "services": {
+            "clothingRental": "No clothing rental available",
+            "cafeteria": "No cafeteria available",
+            "patronHousing": "No patron housing available",
+            "distributionCenter": "Distribution center nearby"
+        },
+        "history": {
+            "announced": "7 October 2018",
+            "groundbreaking": "4 May 2019",
+            "dedicated": "19 June 2022"
+        },
+        "closureSchedule": "10 October - 23 October, 24 December - 25 December, 31 December",
+        "picture": "https://churchofjesuschristtemples.org/assets/img/temples/praia-cape-verde-temple/praia-cape-verde-temple-25350.jpg"
+    }
+
+]

@@ -60,10 +60,33 @@
 
     section.weather{padding: 0 15%;}
 
-    /*----------- Discover --------------*/
- 
+    /*----------- TEMPLE CARDS --------------*/
+    .temple-cards section {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: auto 1fr auto; 
+        gap: 0px 15px; 
+        grid-template-areas: 
+            "name name name"
+            "img img img"
+            "text text text"; 
+    }
 
-    
+    .temple-cards section img {
+        display: block;
+        grid-area: img;
+        max-width: 500px;
+        margin: 2% auto;
+    }
+
+    .temple-cards section h3 {
+        grid-area: name; 
+        margin: 0;
+    }
+
+    .temple-cards section p {margin: 5% 0;}
+
+
     /*----------- FORM --------------*/
 
     
