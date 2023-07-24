@@ -1,0 +1,31 @@
+# job title
+deploy DEV:
+  stage: deploy
+
+  # deploy will run manually, we need to action the deploy
+  when: manual
+  except:
+    changes:
+      - it/**/*
+  image: python:3.6
+  script:
+    - echo "installingaws command line"
+    - pip install awscli
+    - aws --version
+    - echo "Uploading files to AWS Bucket"
+
+
+# job 2
+deploy PROD:
+  stage: deploy
+
+  when: manual
+  except:
+    changes:
+      - it/**/*
+  image: python:3.6
+  script:
+    - echo "installingaws command line"
+    - pip install awscli
+    - aws --version
+    - echo "Uploading files to AWS Bucket"
